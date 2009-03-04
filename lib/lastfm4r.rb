@@ -1,8 +1,6 @@
 class Lastfm4r
   require 'net/http'
   require 'rexml/document'
-  require 'kconv'
-  $KCODE="UTF8"
 
   @@uri = URI.parse('http://ws.audioscrobbler.com/2.0/')
 
